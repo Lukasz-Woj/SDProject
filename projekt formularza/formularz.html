@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularz</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+        <h1>Dane klienta</h1>
+        <div class="row">
+            <div class="col">
+                <label>Imię<br><input type="text" name="imie"></label>
+            </div>
+            <div class="col">
+                <label>Nazwisko<br><input type="text" name="nazwisko"></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                 <label>Nazwa firmy<br><input type="text" name="nazwa_firmy"><br></label>
+            </div>
+            <div class="col">
+                <label>NIP firmy<br><input type="text" name="NIP_firmy"><br></label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+            <label>Telefon<br><input type="tel" name="telefon"><br></label>
+            </div>
+            <div class="col">
+            <label>Adres mailowy<br><input type="email" name="email"><br></label>
+            </div>
+        </div>
+        </fieldset>
+        <fieldset>
+            <h1>Funkcjonalność strony</h1>
+            
+                <label>Czy strona ma być responsywna?</label>
+                <div>
+                     <label><input type="radio" name="responsywna">tak</label>
+                 </div>
+                 <div>
+                    <label><input type="radio" name="responsywna">nie</label>
+                </div>
+                <label>Ruch na stronie<br><textarea></textarea><br></label>
+                <label>Wersje językowe</label>
+                <div>
+                     <label><input type="radio" name="jezyk">tak</label>
+                     <label><input type="text"></label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="jezyk">nie</label>
+                 </div>
+            
+                <label>Sklep internetowy</label>
+                <div>
+                     <label><input type="radio" name="sklep">tak</label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="sklep">nie</label>
+                 </div>
+                 <label>Social media</label>
+                <div>
+                     <label><input type="radio" name="social_media">tak</label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="social_media">nie</label>
+                 </div>
+                 <label>Chat do fb</label>
+                <div>
+                     <label><input type="radio" name="chat">tak</label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="chat">nie</label>
+                 </div>
+            
+        </fieldset>
+        <fieldset>
+        <h1>Twoja strona www</h1>
+        
+            <label>Adres strony<br><input type="text" name="adres"><br></label>
+            <label>Rodzaj strony<br></label>
+            <select>
+                <option>opcja1</option>
+                <option>opcja2</option>
+                <option>opcja3</option>
+            </select><br>
+        
+            <label>Logo strony<br><input type="file"><br></label>
+            <label>Ilość podstron<br><input type="number" name="ilosc"><br></label>
+        
+            <label>Adres domeny<br><input type="text" name="adres_domeny"><br></label>
+            <label>Oprogramowanie strony<br><input type="text" name="oprogramowanie"><br></label>
+            <label>Nazwy zakładek<br><textarea></textarea></label>
+            </div>
+        
+        </fieldset>
+        <fieldset>
+            <h1>Dodatkowe usługi</h1>
+           
+            <label>Hosting domeny(cena)</label>
+                <div>
+                     <label><input type="radio" name="hosting">tak</label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="hosting">nie</label>
+                 </div>
+        
+                <label>Zapewnienie serwera dla strony</label>
+                <div>
+                     <label><input type="radio" name="serwer">tak</label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="serwer">nie</label>
+                 </div>
+                 
+                 <label>Stworzenie grafik i reszty zawartości strony</label>
+                <div>
+                     <label><input type="radio" name="grafiki">tak</label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="grafiki">nie</label>
+                 </div>
+                 <label>Domena(cena)</label>
+                <div>
+                     <label><input type="radio" name="domena">tak</label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="domena">nie</label>
+                 </div>
+                 <label>Obróbka materiałów</label>
+                <div>
+                     <label><input type="radio" name="obrobka">tak</label>
+                 </div>
+                 <div>
+                     <label><input type="radio" name="obrobka">nie</label>
+                 </div>
+                 <label>Opieka nad stroną www(aktualizacja treści) - wycena indywidualna</label>
+        </fieldset>
+        <fieldset>
+            
+            <h1>Dodatkowe informacje o stronie</h1>
+            <label>Opis wyglądu strony<br><textarea rows="4" cols="50"></textarea><br></label>
+            <label>Inne istotne uwagi i kwestie<br><textarea rows="4" cols="50"></textarea><br></label>
+            
+            
+                <label>Linki do stron, które ci się podobają<br><textarea rows="4" cols="50"></textarea><br></label>
+                <label><input type="checkbox"><a href="polityka">Polityka prywatności</a><br></label>
+            
+                <button>Zapisz jako pdf</button>
+                <button type="submit">Wyślij</button>
+        </fieldset>
+        
+        
+        
+    </form>
+</body>
+</html>
