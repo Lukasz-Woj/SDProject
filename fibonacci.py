@@ -27,3 +27,6 @@ n = int(input("Wprowadź n: "))
 for i in range(0, n+1):
     print("F", i, "=", fibonacci(i), sep="")
     
+    
+    
+    abc
